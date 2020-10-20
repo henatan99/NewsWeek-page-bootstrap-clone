@@ -1,0 +1,49 @@
+/* body {
+    margin-right: 1rem;
+    margin-left: 1rem;
+} */
+
+/*
+===================
+header
+===================
+*/
+
+.header-nav-1 {
+    background-color: #f7220f;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.skew {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 15%;
+    width: 95%;
+    transform: skewX(30deg);
+    margin-left: -2rem;
+    overflow: hidden;
+}
+
+.rounded-pill {
+    background-color: #fae41c;
+}
+
+.btn {
+    font-family: sans-serif Helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    Color: #252525
+}
+
+@media screen and (min-width: 768px) {
+ .logo {
+     width: 420px;
+
+ }
+}
