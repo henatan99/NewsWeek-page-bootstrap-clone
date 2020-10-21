@@ -60,8 +60,6 @@ p{
     font-size: 14px;
 }
 
-
-
 .featured-stories figure{
     position: relative;
 }
@@ -74,7 +72,15 @@ p{
    margin: 0;
 }
 
+figure{
+    position: relative;
+}
+
 .article-category {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
     background: #e6e6e6;
     padding: 5px;
     color: #5097ef;
@@ -82,9 +88,15 @@ p{
 }
 
 .article-category a{
-    color: #e9280f;
+    color: red;
     
 }
+
+.opinion img, .the-debate img{
+    width: 60px;
+    height: 60px;
+}
+
 .n-logo {
     background-color: #e9280f;
 }
@@ -117,7 +129,26 @@ color: #e9280f;
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .middle-sections-wrapper{        
+        margin-top: -1550px; 
+    }
+    .col-md-2{
+        margin-right: -14px;
+    }
+    .ranking-and-sponsored{
+        display: flex;
+        justify-content: center;
+    }
+    .ranking-and-sponsored div{
+        width: 30%;
+    }
+    .aside-elem img {      
+       
+    }
+}
+
+@media screen and (min-width: 992px) {
  .logo img{
      width: 350px;
  }
@@ -161,6 +192,24 @@ color: #e9280f;
 .nav-link{
     color: rgb(139, 136, 136);
 }
+
+
+.middle-sections-wrapper{        
+    margin-top: -1500px; 
+}
+
+.top-story, .middle-sections-wrapper{
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+.featured-stories, .grow{
+    margin-right: -10px;
+}
+
+.ranking-and-sponsored{
+    margin-top: -620px;
+}
 /* .articles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -169,3 +218,4 @@ color: #e9280f;
 } */
 
 }
+
