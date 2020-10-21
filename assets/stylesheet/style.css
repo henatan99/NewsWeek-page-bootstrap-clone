@@ -30,7 +30,9 @@ header
 }
 
 /*  */
-
+.main img{
+    width: 100%;
+}
 
 h1{
     font-size: 20px;  
@@ -58,9 +60,7 @@ p{
     font-size: 14px;
 }
 
-img{
-    max-width: 100%;
-}
+
 
 .featured-stories figure{
     position: relative;
@@ -82,9 +82,40 @@ img{
 }
 
 .article-category a{
-    color: red;
+    color: #e9280f;
     
 }
+.n-logo {
+    background-color: #e9280f;
+}
+.magazine img {
+    width: 100%;
+}
+.text-center {
+    background-color: #f5eeee;
+}
+.text-center:hover {
+    background-color: #e6e0e0;
+}
+.text-center a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.mag-img-info h1{
+    background-color:#e9280f;
+}
+.mag-img-info a {
+color: #e9280f;
+}
+.mag-img-info a:hover {
+    text-decoration: none;
+}
+.mag-info a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
 
 @media screen and (min-width: 1024px) {
  .logo img{
@@ -104,7 +135,7 @@ img{
 }
 
 .header-nav-2 a:hover{
-    color: red;
+    color: #e9280f;
     text-decoration: none;
 }
 
@@ -130,5 +161,11 @@ img{
 .nav-link{
     color: rgb(139, 136, 136);
 }
+/* .articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+} */
 
 }
