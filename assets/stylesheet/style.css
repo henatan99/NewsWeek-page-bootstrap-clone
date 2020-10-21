@@ -129,6 +129,70 @@ color: #e9280f;
 }
 
 
+.subscribe-1 {
+    background-color: #f4f4f5;
+}
+.subscribe-img {
+    position: relative;
+}
+.subscribe-img img {
+    width: 170px;
+    height: 250px;
+}
+.subscribe-img-2 {
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+.position-absolute {
+    left: 50px;
+    top: 150px;
+   text-align: center;
+}
+.text-center {
+    font-size: 16px;
+}
+.btn-1-1 {
+    font-size: 18px;
+    background-color: #e9280f;
+}
+.newsletter-img {
+    width: 100%;
+}
+.subscribe-info-p-1 {
+   color: #000;
+   font-size: 18px;
+   line-height: 1;
+}
+.subscribe-info-p-2 {
+    text-align: center;
+    font-size: 16px;
+}
+.footer-nw-logo img {
+    width: 45%;
+}
+.copyright-info {
+    color: #757573;
+    font-size: 13px;
+}
+.footer-social-icons a{
+    text-decoration: none;
+    color: #757573;
+    padding: 6px;
+    font-size: 30px;
+}
+.footer-social-icons a:hover {
+    color: #4a4abe;
+}
+.footer-links a{
+color: #555553;
+padding: 4px;
+text-decoration: none;
+}
+.footer-links a:hover {
+    color: #000;
+}
+
 @media screen and (min-width: 768px) {
     .middle-sections-wrapper{        
         margin-top: -1550px; 
@@ -143,8 +207,23 @@ color: #e9280f;
     .ranking-and-sponsored div{
         width: 30%;
     }
-    .aside-elem img {      
-       
+    .subscribe-img {
+        position: relative;
+    }
+    .subscribe-img img {
+        width: 170px;
+        height: 250px;
+    }
+    .subscribe-img-2 {
+        position: absolute;
+        left: 200px;
+        top: 30px;
+    }
+    .newsletter-img {
+        width: 30%;
+    }
+    .subscribe-info-p-2 {
+        width: 150px;
     }
 }
 
@@ -210,12 +289,20 @@ color: #e9280f;
 .ranking-and-sponsored{
     margin-top: -620px;
 }
-/* .articles {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-} */
-
+.subscribe-img {
+    position: relative;
+}
+.subscribe-img img {
+    width: 170px;
+    height: 250px;
+}
+.subscribe-img-2 {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.newsletter-img {
+    width: 30%;
+}
 }
 
