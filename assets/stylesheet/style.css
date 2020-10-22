@@ -263,7 +263,7 @@ figure {
   }
 
   .middle-sections-wrapper {
-    margin-top: -1550px;
+    margin-top: -1500px;
   }
 
   .top-story,
@@ -282,7 +282,7 @@ figure {
   }
 
   .ranking-and-sponsored {
-    margin-top: -620px;
+    margin-top: -600px;
   }
 
   .ranking-and-sponsored div {
@@ -314,5 +314,9 @@ figure {
   .header-nav-2-ul-2 li {
     font-size: 14px;
     padding-right: 10px;
+  }
+
+  .ranking-and-sponsored {
+    margin-top: -800px;
   }
 }
