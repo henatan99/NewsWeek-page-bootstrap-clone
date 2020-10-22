@@ -18,7 +18,11 @@
   color: #252525;
 }
 
-/*Main section*/
+/*
+
+Main section
+
+*/
 
 .main img {
   width: 100%;
@@ -305,10 +309,12 @@ figure {
     font-size: 18px;
     padding: 6px;
   }
-  
+
   .header-nav-2-ul-2 a,
   .header-nav-2-ul-2 li {
     font-size: 14px;
     padding-right: 10px;
   }
 }
+
+
