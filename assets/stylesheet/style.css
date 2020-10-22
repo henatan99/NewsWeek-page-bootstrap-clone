@@ -1,3 +1,16 @@
+/*
+===================
+general styles(mobile view)
+===================
+*/
+
+/*
+===================
+header
+===================
+*/
+
+
 .header-nav-1 {
   background-color: #f7220f;
 }
@@ -18,13 +31,16 @@
   color: #252525;
 }
 
+
 /*
-
+===================
 Main section
-
+===================
 */
 
-.main img {
+
+.main img,
+.magazine img {
   width: 100%;
 }
 
@@ -33,7 +49,8 @@ h1 {
   font-weight: bold;
 }
 
-h1 a {
+h1 a,
+ h2 a {
   color: #000;
   font-weight: bold;
 }
@@ -43,16 +60,8 @@ h2 {
   font-weight: bold;
 }
 
-h2 a {
-  color: #000;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 14px;
-}
-
-p {
+h3,
+ p{
   font-size: 14px;
 }
 
@@ -79,7 +88,7 @@ figure {
 }
 
 .article-category a {
-  color: red;
+  color: #ff0000;
 }
 
 .opinion img,
@@ -94,10 +103,6 @@ figure {
 
 .n-logo {
   background-color: #e9280f;
-}
-
-.magazine img {
-  width: 100%;
 }
 
 .text-center {
@@ -127,7 +132,8 @@ figure {
   color: gray;
 }
 
-.mag-img-info a {
+.mag-img-info a, 
+.mag-img-info h1 {
   color: #e9280f;
 }
 
@@ -136,12 +142,9 @@ figure {
   text-decoration: none;
 }
 
-.mag-img-info h1 {
-  background-color: #e9280f;
-  font-size: 13px;
-}
 
-.mag-img-info h2 {
+.mag-img-info h2, 
+.mag-img-info h1 {
   font-size: 13px;
 }
 
@@ -168,7 +171,8 @@ figure {
   padding-left:2rem
 }
 
-.subscribe-1 .position-absolute {
+.subscribe-1,
+ .position-absolute {
   z-index: 0;
   left: 90px;
   top: 37px;
@@ -187,6 +191,18 @@ figure {
 .footer-social-icons {
   margin-left: auto;
 }
+
+/*
+============================
+styles specific (media queries)
+================================
+*/
+
+/*
+===================
+tablet view
+===================
+*/
 
 @media screen and (min-width: 768px) {
   .order-md-4 {
@@ -211,7 +227,19 @@ figure {
   .subscribe-info {
     align-items: initial;
   }
+ 
+  .edi-links:hover {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+  }
 }
+
+/*
+===================
+large screen view
+===================
+*/
 
 @media screen and (min-width: 992px) {
   .logo img {
@@ -285,18 +313,28 @@ figure {
   }
 
   .aside-img {
-    width: 40%;
+    width: 20%;
   }
 
   .aside-text {
     width: 60%;
   }
-
   .newsletter img {
     height: 287px;
     object-fit: cover;
   }
+  .footer-links a::after {
+    content: "|";
+    padding-left: 3px;
+   color: #a39f9f;
+  }
 }
+
+/*
+===================
+xlarge screen view
+===================
+*/
 
 @media screen and (min-width: 1193px) {
   .header-nav-2-ul-1 a,
@@ -313,5 +351,8 @@ figure {
 
   .ranking-and-sponsored {
     margin-top: -800px;
+  }
+  .articles img {
+    height: 300px;
   }
 }
