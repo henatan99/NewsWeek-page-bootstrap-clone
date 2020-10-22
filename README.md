@@ -20,9 +20,9 @@ The features of this project are listed as below:
 4. Has sections with sticky bootstrap class 
 
 ## Built With
+- [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-- HTML5
-- CSS3
+- [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 - Bootstrap4
 
 ## Live Demo
