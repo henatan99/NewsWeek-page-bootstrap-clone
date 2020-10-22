@@ -50,9 +50,9 @@ The features of this project are listed as below:
 
 👤 **Arrey Tabe**
 
-- GitHub: [@dipbazz](https://github.com/ArreyTabe)
-- Twitter: [@dipbazz](https://twitter.com/tabe_arrey)
-- LinkedIn: [Dipesh Bajgain](https://www.linkedin.com/in/arrey-affuembey-80a8b11a8/)
+- GitHub: [@ArreyTabe](https://github.com/ArreyTabe)
+- Twitter: [@tabe-arrey](https://twitter.com/tabe_arrey)
+- LinkedIn: [ArreyTabe](https://www.linkedin.com/in/arrey-affuembey-80a8b11a8/)
 
 ## 🤝 Contributing
 
