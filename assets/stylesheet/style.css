@@ -1,10 +1,13 @@
-/* *{
-  border: 1px solid;
-} */
 .header-nav-1 {
   background-color: #f7220f;
 }
 
+.header-nav-2-ul-1 li {
+  border-right-width: 0;
+  border-bottom-width: 0;
+  margin: 0;
+  padding: 0.5rem;
+}
 .logo img {
   width: 130px;
 }
@@ -21,12 +24,6 @@
   color: #333030;
 }
 
-.header-nav-2-ul-1 li{
-  border-left: 1px solid;
-  padding-left: 2rem;
-
-}
-
 /*
 
 Main section
@@ -37,30 +34,32 @@ Main section
   width: 100%;
 }
 
-
 h1 {
   font-size: 20px;
   font-weight: bold;
 }
 
-h1 a, h2 a {
+h1 a,
+h2 a {
   color: #000;
-  font-weight: bold;  
+  font-weight: bold;
   text-decoration: none;
 }
 
-h1 a:hover, h2 a:hover{
+h1 a:hover,
+h2 a:hover {
   text-decoration: underline;
   text-decoration-color: red;
   color: black;
-} 
+}
 
 h2 {
   font-size: 16px;
   font-weight: bold;
 }
 
-h3, p {
+h3,
+p {
   font-size: 14px;
 }
 
@@ -90,7 +89,7 @@ figure {
   color: red;
 }
 
-.more-stories article{
+.more-stories article {
   height: fit-content;
 }
 
@@ -109,7 +108,7 @@ figure {
 }
 
 .magazine img {
-  width: 100%;  
+  width: 100%;
 }
 
 .text-center {
@@ -167,7 +166,7 @@ figure {
 }
 
 .aside-text {
-  width: 60%;
+  width: 100%;
   padding-left: 14px;
 }
 
@@ -198,16 +197,11 @@ figure {
   margin-left: auto;
 }
 
-.middle-sections-wrapper {
-  position: relative;
-}
-
 @media screen and (min-width: 768px) {
-
   .subscribe-info {
     align-items: initial;
-  }  
-  
+  }
+
   .middle-sections-wrapper {
     position: sticky;
     top: 0;
@@ -236,54 +230,59 @@ figure {
     font-weight: bold;
   }
 
-  .header-nav-2-ul-2 a,  .header-nav-2-ul-2 li {     
+  .header-nav-2-ul-2 a,
+  .header-nav-2-ul-2 li {
     font-size: 13px;
-    padding: 3px;    
-    
+    padding: 3px;
   }
 
   .header-nav-2 a:hover {
     color: #e9280f;
     text-decoration: none;
   }
-  
+
   .nav-link {
     color: rgb(139, 136, 136);
-  }  
- 
+  }
+
   .ranking-articles-wrapper {
     width: 100%;
     margin-left: 0;
   }
 
-  .magazine img {    
+  .magazine img {
     height: 60%;
   }
 
-  .aside-img{
+  .aside-img {
     width: 5rem;
-    height: 5rem;    
+    height: 5rem;
   }
 
-  .aside-img img{
+  .aside-img img {
     height: inherit;
   }
 
   .aside-text {
-    width: 60%;
+    width: 74%;
   }
 
   .newsletter img {
     height: 287px;
     object-fit: cover;
   }
+
+  .footer-links a::after {
+    content: "|";
+    padding-left: 3px;
+    color: #a39f9f;
+  }
 }
 
-@media screen and (min-width: 1440px) {  
+@media screen and (min-width: 1440px) {
   .header-nav-2-ul-2 a,
   .header-nav-2-ul-2 li {
     font-size: 14px;
     padding-right: 10px;
   }
-  
 }
