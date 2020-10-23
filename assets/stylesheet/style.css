@@ -1,0 +1,289 @@
+.header-nav-1 {
+  background-color: #f7220f;
+}
+
+.header-nav-2-ul-1 li {
+  border-right-width: 0;
+  border-bottom-width: 0;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.rounded-pill {
+  background-color: #fae41c;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333030;
+}
+
+/*
+
+Main section
+
+*/
+
+.main img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 a,
+h2 a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article-category a {
+  color: red;
+}
+
+.mag-info a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+
+.mag-img-info a {
+  color: #e9280f;
+}
+
+.footer-social-icons a {
+  font-size: 24px;
+  padding: 3px;
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-links a {
+  padding-right: 12px;
+  text-decoration: none;
+  color: gray;
+}
+
+h1 a:hover,
+h2 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3,
+p {
+  font-size: 14px;
+}
+
+figure {
+  position: relative;
+}
+
+.featured-stories h2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.article-category {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  background: #e6e6e6;
+  padding: 5px;
+  color: #5097ef;
+  font-weight: bold;
+}
+
+.more-stories article {
+  height: fit-content;
+}
+
+.opinion img,
+.the-debate img {
+  width: 60px;
+  height: 60px;
+}
+
+.rounded-circle {
+  margin-top: 4px;
+}
+
+.n-logo {
+  background-color: #e9280f;
+}
+
+.ranking-articles-wrapper article {
+  height: fit-content;
+}
+
+.magazine img {
+  width: 100%;
+}
+
+.text-center {
+  background-color: #f5eeee;
+}
+
+.text-center:hover {
+  background-color: #e6e0e0;
+}
+
+.text-center a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.mag-img-info h1 {
+  background-color: #e9280f;
+  font-size: 13px;
+}
+
+.mag-img-info h2 {
+  font-size: 13px;
+}
+
+.mag-img-info a:hover {
+  text-decoration: none;
+}
+
+.aside-img {
+  width: 40%;
+  height: fit-content;
+}
+
+.aside-text {
+  width: 100%;
+  padding-left: 14px;
+}
+
+.subscribe-1 {
+  background-color: #f4f4f5;
+}
+
+.subscribe-1 img {
+  width: 180px;
+}
+
+.position-absolute {
+  z-index: 0;
+  left: 85px;
+  top: 37px;
+}
+
+.subscribe-info h1 {
+  z-index: 10;
+  background: none;
+  margin-top: 0;
+}
+
+.footer-nw-logo img {
+  width: 200px;
+}
+
+.footer-social-icons {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-info {
+    align-items: initial;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo img {
+    width: 350px;
+  }
+
+  .skew {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 15%;
+    width: 95%;
+    transform: skewX(30deg);
+    margin-left: -2rem;
+    overflow: hidden;
+  }
+
+  .header-nav-2-ul-1 a {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .header-nav-2-ul-2 a,
+  .header-nav-2-ul-2 li {
+    font-size: 13px;
+    padding: 3px;
+  }
+
+  .header-nav-2 a:hover {
+    color: #e9280f;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    color: rgb(139, 136, 136);
+  }
+
+  .ranking-articles-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .magazine img {
+    height: 60%;
+  }
+
+  .aside-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .aside-img img {
+    height: inherit;
+  }
+
+  .aside-text {
+    width: 74%;
+  }
+
+  .newsletter img {
+    height: 287px;
+    object-fit: cover;
+  }
+
+  .footer-links a::after {
+    content: "|";
+    padding-left: 3px;
+    color: #a39f9f;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-nav-2-ul-2 a,
+  .header-nav-2-ul-2 li {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+}
