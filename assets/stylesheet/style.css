@@ -52,11 +52,15 @@ h2 {
   font-size: 16px;
   font-weight: bold;
 }
-h1 a:hover, 
-h2 a:hover {
+
+.article-category a {
+  color: #f00;
+}
+
+.mag-info a {
+  text-decoration: none;
   color: #000;
-  text-decoration: underline;
-  text-decoration-color: #f7220f;
+  font-weight: bolder;
 }
 
 h3,
@@ -86,10 +90,6 @@ figure {
   font-weight: bold;
 }
 
-.article-category a {
-  color: #f00;
-}
-
 .opinion img,
 .the-debate img {
   width: 60px;
@@ -112,12 +112,6 @@ figure {
   background-color: #e6e0e0;
 }
 
-.mag-info a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bolder;
-}
-
 .footer-social-icons a {
   font-size: 24px;
   padding: 3px;
@@ -134,6 +128,13 @@ figure {
 .mag-img-info a,
 .mag-img-info h1 {
   color: #e9280f;
+}
+
+h1 a:hover,
+h2 a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f7220f;
 }
 
 .text-center a:hover {
