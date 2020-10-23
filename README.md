@@ -10,7 +10,7 @@ Bootsrap framework is used in this project to make standard stylings using appro
 
 This project is about building a replica of NewsWeek page using bootstrap framework and making it responsive.
 
-![screenshot](assets/screencapture-127-0-0-1-5500-index-html-2020-10-23-15_21_45.png)
+![screenshot](screencapture-henatan99-github-io-NewsWeek-page-bootstrap-clone-2020-10-23-18_03_14.png)
 
 The features of this project are listed as below:
 1. Has responsive header with three nav elements and with hidden elements feature in differnt media queries
