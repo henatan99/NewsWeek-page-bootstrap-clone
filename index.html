@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="assets/stylesheet/style.css">
         <title>NewsWeek</title>
     </head>
-    <body>
+    <body container-fluid>
         <header>
-            <nav class="header-nav-1 pb-1 pt-1 pb-lg-4 position-relative">
+            <nav class="header-nav-1 pb-1 pt-1 pb-lg-4 position-relative border-none">
                 <ul class="navbar nav d-flex justify-content-between pb-2 pt-lg-2">
                     <li class="left-nav-ul-li d-none d-lg-block pt-lg-5">
                         <span class="text-white">Mon. Oct 19, 2020</span>
@@ -40,46 +40,47 @@
                 <div class="skew d-none d-md-block"></div>
             </nav>
             <nav class="header-nav-2 navbar d-none d-lg-block mt-n2">
-                <ul class="header-nav-2-ul-1 nav ml-n2">
-                    <li class="list-group-item">
+                <ul class="header-nav-2-ul-1 navbar nav ml-n2 d-flex justify-content-between p-0">
+                    <li class="nav-item">
                         <a href="#">US</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">World</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Business</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Tech & Science</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Culture</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">NewsGeek</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Sports</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Health</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">The debate</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Vantage</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         <a href="#">Weather</a>
                     </li>
-                    <li class="list-group-item">
+                    <li class="nav-item">
                         Search
                         <span class="iconify" data-icon="ei:search" data-inline="false"></span>
                     </li>
                 </ul>
-                <ul class="header-nav-2-ul-2 nav font-weight-bold d-flex align-items-baseline">
+                <hr>
+                <ul class="header-nav-2-ul-2 nav font-weight-bold d-flex align-items-baseline justify-content-between p-0">
                     <li class="nav-item ">TRENDING</li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">DONALD TRUMP</a>
@@ -106,375 +107,32 @@
             </nav>
         </header>
         <main class="container-fluid mt-3 main">
-            <div class="sections-wrapper-1 row">
-                <section class="top-story col-12 col-md-7 col-lg-5 order-md-2 pt-lg-1 mb-lg-0">
-                    <h1 class="text-muted h6 font-weight-bold">TOP STORY</h1>
-                    <article>
-                        <figure class="position-relative">
-                            <a href="#">
-                                <img src="assets/images/top-story/nancy-pelosi.jpg" alt="nancy-pelocy">
-                            </a>
-                            <h2 class="article-category">
-                                <a href="#">POLITICS</a>
-                            </h2>
-                        </figure>
-                        <h1>
-                            <a href="#">
-                                Pelosi, Under Fire From Left and Right, Is Losing PR Battle
-                            Over Stimulus
-                            </a>
-                        </h1>
-                        <p>
-                            Polling indicates that the last party to reject a
-                        stimulus offer is often also stuck with the blame.
-                        </p>
-                    </article>
-                </section>
-                <section class="featured-stories col-12 col-md-5 col-lg-3 order-md-1">
-                    <div class="mr-lg-n5 p-lg-2">
-                        <h1 class="text-muted h6 font-weight-bold">FEATURED STORIES</h1>
+            <div class="sections-wrapper-1 row">  
+                <div class="middle-sections-wrapper col-12 col-md-7 col-lg-6 order-md-2">
+                    <section class="top-story">
+                        <h1 class="text-muted h6 font-weight-bold">TOP STORY</h1>
                         <article>
-                            <figure>
+                            <figure class="position-relative">
                                 <a href="#">
-                                    <img src="assets/images/featured-section/trump.jpg" alt="trump">
+                                    <img src="assets/images/top-story/nancy-pelosi.jpg" alt="nancy-pelocy">
                                 </a>
                                 <h2 class="article-category">
                                     <a href="#">POLITICS</a>
                                 </h2>
                             </figure>
                             <h1>
-                                <a href="">Donald Trump Praises Vladimir Putin, Xi Jinping and Kim Jong-Un</a>
+                                <a href="#">
+                                    Pelosi, Under Fire From Left and Right, Is Losing PR Battle
+                                Over Stimulus
+                                </a>
                             </h1>
                             <p>
-                                Trump told his supporters in Des Moines, Iowa that he rated the
-                            mental state of the three autocratic rulers above that of his Democratic rival,
-                            Joe Biden.
+                                Polling indicates that the last party to reject a
+                            stimulus offer is often also stuck with the blame.
                             </p>
                         </article>
-                        <article>
-                            <figure>
-                                <a href="">
-                                    <img src="assets/images/featured-section/greece-turkey-military-dispute-mediterranean.jpg" alt="">
-                                </a>
-                                <h2 class="article-category">
-                                    <a href="#">POLITICS</a>
-                                </h2>
-                            </figure>
-                            <h1>
-                                <a href="">Joe Biden Once Said Packing the Supreme Court Was a Bonehead Idea</a>
-                            </h1>
-                            <p>
-                                Biden, who once said he was staunchly opposed the idea of court
-                            packing, has avoided giving a clear answer on what he'd do if elected
-                            as president in less than three weeks.
-                            </p>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/trump-crowd.jpg" alt="crowd">
-                                </a>
-                                <h2 class="article-category">
-                                    <a href="#">US</a>
-                                </h2>
-                            </figure>
-                            <h1>
-                                <a href="#">In Stimulus Push, Trump Says Pelosi 'Couldn't Care Less' About Americans</a>
-                            </h1>
-                            <p>
-                                The president's comments come amid an ongoing stalemate over the details
-                            of a further relief package amid the coronavirus crisis.
-                            </p>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/judge-amy-coney-barrett.jpg" alt="coney">
-                                </a>
-                                <h2 class="article-category">
-                                    <a href="#">POLITICS</a>
-                                </h2>
-                            </figure>
-                            <h1>
-                                <a href="#">Lindsey Graham's Challenger Jaime Harrison Takes Narrow Lead in New Poll</a>
-                            </h1>
-                            <p>
-                                The Democratic challenger has opened up a one-point lead over the
-                            Republican incumbent with just weeks to go until polling day.
-                            </p>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/russia-ryabkov-nuclear-weapons-talks.jpg" alt="talks">
-                                </a>
-                                <h2 class="article-category">
-                                    <a href="#">WORLD</a>
-                                </h2>
-                            </figure>
-                            <h1>
-                                <a href="#">China Forces 'On High Alert' after U.S. Warship Sails near Taiwan</a>
-                            </h1>
-                            <p>
-                                Taiwan has long been a flashpoint between Beijing and Washington,
-                            D.C., and the Chinese Communist Party maintains its goal of taking
-                            control of the island.
-                            </p>
-                        </article>
-                    </div>
-                </section>
-                <div class="right-sections-wrapper col-12 col-lg-3 order-md-5 order-lg-3 ">
-                    <div class="ml-lg-n5 ">
-                        <section class="the-debate">
-                            <h1>
-                                <a href="#" class="text-muted h6 font-weight-bold text-decoration-none">THE DEBATE</a>
-                            </h1>
-                            <hr style="height:1px;border:none;color:#333;background-color:#333;">
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/the-debate/andrew-c-mccarthy.png" alt="MCCARTHY" class="w-auto">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">
-                                            McConnell's Rush to Confirm Barrett Ignores Crucial Questions of
-                                        Principle
-                                        </a>
-                                    </h2>
-                                    <h2 class="text-muted">BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</h2>
-                                </div>
-                            </article>
-                            <hr class="mb-n1 pb-1" style="height:1px;border:none;color:#333;background-color:#333;">
-                            <div class="d-flex justify-content-center mt-n4">
-                                <span class="rounded-circle bg-dark p-1 pt-1 text-white font-weight-bold">VS</span>
-                            </div>
-                            <article class="d-flex flex-row-reverse mt-2">
-                                <a href="#">
-                                    <img src="assets/images/the-debate/claire-finkelstein-richard-w-painter-2.png" alt="painter">
-                                </a>
-                                <div class="mr-2">
-                                    <h2>
-                                        On Supreme Court Nominations, All that Counts is the Constitution
-                                    </h2>
-                                    <h2 class="text-muted">BY ANDREW C. MCCARTHY</h2>
-                                </div>
-                            </article>
-                            <hr style="height:1px;border:none;color:#333;background-color:#333;">
-                        </section>
-                        <section class="opinion mt-4 mb-4">
-                            <h2>
-                                <a href="#" class="text-muted">OPINION</a>
-                            </h2>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/bruce-abramson-jeff-ballabon.png" alt="jeff">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">
-                                            How Dare Republicans Tout Barrett's Motherhood While Letting Working
-                                        Moms Drown?
-                                        </a>
-                                    </h2>
-                                    <h2 class="text-muted">BY JENNIFER WEISS-WOLF</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/david-p-goldman.png" alt="goldman" style="padding: 0;">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">Biden's 'Unconstitutional' Game</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY MIKE DAVIS</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/harry-j-kazianis.png" alt="harry">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">Huawei Plays Matador to Trump's Bull</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY DAVID P. GOLDMAN</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/jennifer-weiss-wolf.png" alt="weiss">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">Why Won't Joe Biden Repudiate Anti-Semitic Democrats?</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY BRUCE ABRAMSON AND JEFF BALLABON</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/mike-davis.png" alt="mike">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">What We Must Learn from the COVID-19 Response</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY JAY W. RICHARDS, DOUGLAS AXE AND WILLIAM BRIGGS</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/richards-axe-briggs.png" alt="briggs">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">North Korea's New ICBM: A 21st-Century Spruce Goose?</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY HARRY J. KAZIANIS</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/robert-reich.png" alt="reich">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">Vibes in the Middle East</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY SHOSHANA BRYEN</h2>
-                                </div>
-                            </article>
-                            <hr>
-                            <article class="d-flex">
-                                <a href="#">
-                                    <img src="assets/images/opinion/shoshana-bryen.png" alt="bryen">
-                                </a>
-                                <div class="ml-2">
-                                    <h2>
-                                        <a href="#">Trump's Last Stand is in the Middle of Fifth Avenue</a>
-                                    </h2>
-                                    <h2 class="text-muted">BY ROBERT REICH</h2>
-                                </div>
-                            </article>
-                        </section>
-                    </div>
-                </div>
-                <section class="featured-sponored col-12 col-md-5 col-lg-3 order-md-2 order-lg-4">
-                    <div class="mr-lg-n5 p-lg-2">
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/holy-angel-university.jpg" alt="angel">
-                                </a>
-                                <h2 class="article-category">SPONSORED INSIGHT</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">Leaders in Global Education 2020</a>
-                                </h1>
-                                <p>
-                                    What does it take to be a leader in Global Education?
-                                What sets the best Universities apart from the others on the world stage?
-                                Find out more.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/americas-best-banks-2021.png" alt="best-banks">
-                                </a>
-                                <h2 class="article-category">RANKINGS</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">America's Best Banks 2021</a>
-                                </h1>
-                                <p>
-                                    Introducing Newsweek's first ranking of the financial institutions
-                                that best serve their customers' needs in today's challenging times.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/worlds-best-specialized-hospitals-2021.png" alt="hospitals">
-                                </a>
-                                <h2 class="article-category">RANKINGS</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">World's Best Specialized Hospitals 2021</a>
-                                </h1>
-                                <p>
-                                    In the first part of this special,
-                                we rank the best hospitals in cardiology, oncology and endocrinology.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/best-online-shops-2021.png" alt="best-online-shops-2021">
-                                </a>
-                                <h2 class="article-category">RANKINGS</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">Best Online Shops 2021</a>
-                                </h1>
-                                <p>
-                                    Newsweek and Statista are recognizing 1,000 shops across 39 categories in
-                                eight groups.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/americas-best-physical-rehabilitation-centers-2020.png" alt="rehabilitation">
-                                </a>
-                                <h2 class="article-category">RANKINGS</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">America's Best Physical Rehabilitation Centers 2020</a>
-                                </h1>
-                                <p>
-                                    Finding reliable rehabilitation can be a challenge. We partnered with
-                                Statista to rank the country's Best Physical Rehabilitation Centers.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="#">
-                                    <img src="assets/images/featured-section/brandspark.png" alt="brandspark">
-                                </a>
-                                <h2 class="article-category">TAKE THE SURVEY</h2>
-                            </figure>
-                            <div class="container">
-                                <h1>
-                                    <a href="#">What Brands do You Trust the Most?</a>
-                                </h1>
-                                <p>
-                                    Tell us for a chance to win. 2020 Brandspark Most Trusted Awards.
-                                Voted by consumers like you.
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <div class="middle-sections-wrapper col-12 col-md-7 col-lg-5 order-md-4 order-lg-5 ">
-                    <section class="my-turn mb-2">
+                    </section>
+                    <section class="my-turn d-none d-md-block">
                         <h1>
                             <a href="#" class="text-muted">MY TURN</a>
                         </h1>
@@ -514,7 +172,7 @@
                             </article>
                         </div>
                     </section>
-                    <section class="culture & travel mb-2">
+                    <section class="culture & travel d-none d-md-block">
                         <h1>
                             <a href="#" class="text-muted">CULTURE & TRAVEL</a>
                         </h1>
@@ -569,7 +227,7 @@
                             </article>
                         </div>
                     </section>
-                    <section class="more-stories position-sticky sticky-top">
+                    <section class="more-stories d-none d-md-flex flex-column mt-4">
                         <h1 class="text-muted">MORE STORIES</h1>
                         <hr>
                         <article>
@@ -604,7 +262,7 @@
                         <hr>
                         <article>
                             <a href="#" class="float-left pr-3">
-                                <img src="assets/mages/more-stories/lindsey-graham.jpg" alt="lindsey-graham">
+                                <img src="assets/images/more-stories/lindsey-graham.jpg" alt="lindsey-graham">
                             </a>
                             <h2>
                                 <a href="#">2 Huge Pieces of Space Junk at 'Very High Risk' of Collision</a>
@@ -736,9 +394,348 @@
                             </p>
                         </article>
                     </section>
-                </div>
-                <section class="ranking-and-sponsored col-12 col-lg-3 order-md-6 pl-md-0">
-                    <div class="ml-lg-n5 position-sticky sticky-top mt-5">
+                </div>               
+                <section class="featured-stories col-12 col-md-5 col-lg-3 order-md-1 ">
+                    <div>
+                        <h1 class="text-muted h6 font-weight-bold">FEATURED STORIES</h1>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/trump.jpg" alt="trump">
+                                </a>
+                                <h2 class="article-category">
+                                    <a href="#">POLITICS</a>
+                                </h2>
+                            </figure>
+                            <h1>
+                                <a href="">Donald Trump Praises Vladimir Putin, Xi Jinping and Kim Jong-Un</a>
+                            </h1>
+                            <p>
+                                Trump told his supporters in Des Moines, Iowa that he rated the
+                            mental state of the three autocratic rulers above that of his Democratic rival,
+                            Joe Biden.
+                            </p>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="">
+                                    <img src="assets/images/featured-section/greece-turkey-military-dispute-mediterranean.jpg" alt="">
+                                </a>
+                                <h2 class="article-category">
+                                    <a href="#">POLITICS</a>
+                                </h2>
+                            </figure>
+                            <h1>
+                                <a href="">Joe Biden Once Said Packing the Supreme Court Was a Bonehead Idea</a>
+                            </h1>
+                            <p>
+                                Biden, who once said he was staunchly opposed the idea of court
+                            packing, has avoided giving a clear answer on what he'd do if elected
+                            as president in less than three weeks.
+                            </p>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/trump-crowd.jpg" alt="crowd">
+                                </a>
+                                <h2 class="article-category">
+                                    <a href="#">US</a>
+                                </h2>
+                            </figure>
+                            <h1>
+                                <a href="#">In Stimulus Push, Trump Says Pelosi 'Couldn't Care Less' About Americans</a>
+                            </h1>
+                            <p>
+                                The president's comments come amid an ongoing stalemate over the details
+                            of a further relief package amid the coronavirus crisis.
+                            </p>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/judge-amy-coney-barrett.jpg" alt="coney">
+                                </a>
+                                <h2 class="article-category">
+                                    <a href="#">POLITICS</a>
+                                </h2>
+                            </figure>
+                            <h1>
+                                <a href="#">Lindsey Graham's Challenger Jaime Harrison Takes Narrow Lead in New Poll</a>
+                            </h1>
+                            <p>
+                                The Democratic challenger has opened up a one-point lead over the
+                            Republican incumbent with just weeks to go until polling day.
+                            </p>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/russia-ryabkov-nuclear-weapons-talks.jpg" alt="talks">
+                                </a>
+                                <h2 class="article-category">
+                                    <a href="#">WORLD</a>
+                                </h2>
+                            </figure>
+                            <h1>
+                                <a href="#">China Forces 'On High Alert' after U.S. Warship Sails near Taiwan</a>
+                            </h1>
+                            <p>
+                                Taiwan has long been a flashpoint between Beijing and Washington,
+                            D.C., and the Chinese Communist Party maintains its goal of taking
+                            control of the island.
+                            </p>
+                        </article>
+                    </div>
+                    <div>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/holy-angel-university.jpg" alt="angel">
+                                </a>
+                                <h2 class="article-category">SPONSORED INSIGHT</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">Leaders in Global Education 2020</a>
+                                </h1>
+                                <p>
+                                    What does it take to be a leader in Global Education?
+                                What sets the best Universities apart from the others on the world stage?
+                                Find out more.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/americas-best-banks-2021.png" alt="best-banks">
+                                </a>
+                                <h2 class="article-category">RANKINGS</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">America's Best Banks 2021</a>
+                                </h1>
+                                <p>
+                                    Introducing Newsweek's first ranking of the financial institutions
+                                that best serve their customers' needs in today's challenging times.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/worlds-best-specialized-hospitals-2021.png" alt="hospitals">
+                                </a>
+                                <h2 class="article-category">RANKINGS</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">World's Best Specialized Hospitals 2021</a>
+                                </h1>
+                                <p>
+                                    In the first part of this special,
+                                we rank the best hospitals in cardiology, oncology and endocrinology.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/best-online-shops-2021.png" alt="best-online-shops-2021">
+                                </a>
+                                <h2 class="article-category">RANKINGS</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">Best Online Shops 2021</a>
+                                </h1>
+                                <p>
+                                    Newsweek and Statista are recognizing 1,000 shops across 39 categories in
+                                eight groups.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/americas-best-physical-rehabilitation-centers-2020.png" alt="rehabilitation">
+                                </a>
+                                <h2 class="article-category">RANKINGS</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">America's Best Physical Rehabilitation Centers 2020</a>
+                                </h1>
+                                <p>
+                                    Finding reliable rehabilitation can be a challenge. We partnered with
+                                Statista to rank the country's Best Physical Rehabilitation Centers.
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="assets/images/featured-section/brandspark.png" alt="brandspark">
+                                </a>
+                                <h2 class="article-category">TAKE THE SURVEY</h2>
+                            </figure>
+                            <div class="container">
+                                <h1>
+                                    <a href="#">What Brands do You Trust the Most?</a>
+                                </h1>
+                                <p>
+                                    Tell us for a chance to win. 2020 Brandspark Most Trusted Awards.
+                                Voted by consumers like you.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section class="right-sections-wrapper col-12 col-lg-3 order-lg-3 order-md-3">
+                    <div>
+                        <section class="the-debate">
+                            <h1>
+                                <a href="#" class="text-muted h6 font-weight-bold text-decoration-none">THE DEBATE</a>
+                            </h1>
+                            <hr style="height:1px;border:none;color:#333;background-color:#333;">
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/the-debate/andrew-c-mccarthy.png" alt="MCCARTHY" class="w-auto">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">
+                                            McConnell's Rush to Confirm Barrett Ignores Crucial Questions of
+                                        Principle
+                                        </a>
+                                    </h2>
+                                    <h2 class="text-muted">BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</h2>
+                                </div>
+                            </article>
+                            <hr class="mb-n1 pb-1" style="height:1px;border:none;color:#333;background-color:#333;">
+                            <div class="d-flex justify-content-center mt-n4">
+                                <span class="rounded-circle bg-dark p-1 pt-1 text-white font-weight-bold">VS</span>
+                            </div>
+                            <article class="d-flex flex-row-reverse mt-2">
+                                <a href="#">
+                                    <img src="assets/images/the-debate/claire-finkelstein-richard-w-painter-2.png" alt="painter">
+                                </a>
+                                <div class="mr-2">
+                                    <h2>
+                                        On Supreme Court Nominations, All that Counts is the Constitution
+                                    </h2>
+                                    <h2 class="text-muted">BY ANDREW C. MCCARTHY</h2>
+                                </div>
+                            </article>
+                            <hr style="height:1px;border:none;color:#333;background-color:#333;">
+                        </section>
+                        <section class="opinion">
+                            <h2>
+                                <a href="#" class="text-muted">OPINION</a>
+                            </h2>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/bruce-abramson-jeff-ballabon.png" alt="jeff">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">
+                                            How Dare Republicans Tout Barrett's Motherhood While Letting Working
+                                        Moms Drown?
+                                        </a>
+                                    </h2>
+                                    <h2 class="text-muted">BY JENNIFER WEISS-WOLF</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/david-p-goldman.png" alt="goldman" style="padding: 0;">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">Biden's 'Unconstitutional' Game</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY MIKE DAVIS</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/harry-j-kazianis.png" alt="harry">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">Huawei Plays Matador to Trump's Bull</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY DAVID P. GOLDMAN</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/jennifer-weiss-wolf.png" alt="weiss">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">Why Won't Joe Biden Repudiate Anti-Semitic Democrats?</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY BRUCE ABRAMSON AND JEFF BALLABON</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/mike-davis.png" alt="mike">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">What We Must Learn from the COVID-19 Response</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY JAY W. RICHARDS, DOUGLAS AXE AND WILLIAM BRIGGS</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/richards-axe-briggs.png" alt="briggs">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">North Korea's New ICBM: A 21st-Century Spruce Goose?</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY HARRY J. KAZIANIS</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/robert-reich.png" alt="reich">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">Vibes in the Middle East</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY SHOSHANA BRYEN</h2>
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="d-flex">
+                                <a href="#">
+                                    <img src="assets/images/opinion/shoshana-bryen.png" alt="bryen">
+                                </a>
+                                <div class="ml-2">
+                                    <h2>
+                                        <a href="#">Trump's Last Stand is in the Middle of Fifth Avenue</a>
+                                    </h2>
+                                    <h2 class="text-muted">BY ROBERT REICH</h2>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                    <div class="ranking-articles-wrapper d-none d-lg-block">
                         <article>
                             <figure>
                                 <a href="#">
@@ -845,8 +842,9 @@
                                 </p>
                             </div>
                         </article>
-                    </div>
-                </section>
+                    </div>                    
+                </section>            
+                                
             </div>
             <section class="magazine container-md-fluid mt-4">
                 <div class="d-flex justify-content-center align-items-center mb-2">
@@ -975,6 +973,24 @@
                         <p class="mag-info">
                             <a href="#" class="font-weight-bold">
                                 As QAnon Conspiracies Spread, Scientists Fight a Misinformation Pandemic
+                            </a>
+                        </p>
+                    </article>
+                    <article class="tech-and-science col-md-3">
+                        <a href="#">
+                            <img src="assets/images/in-the-magazine/rbg-memorial.jpg" alt="cover" class="mag-img mt-lg-3">
+                        </a>
+                        <div class="d-flex align-items-center mag-img-info mt-2">
+                            <h1 class="mr-2 p-1 text-white bg-danger">PERISCOPE</h1>
+                            <h2>
+                                <a href="#">
+                                    POLITICS
+                                </a>
+                            </h2>
+                        </div>
+                        <p class="mag-info">
+                            <a href="#" class="font-weight-bold">
+                                If We Don't Win in Pennsylvania, 'We Are So Screwed,' Biden Insider Says
                             </a>
                         </p>
                     </article>
@@ -1525,14 +1541,14 @@
                 </div>
             </section>
             <section class="subscribe-newsletter container-md-fluid mt-5 mb-4 row p-lg-4">
-                <div class="subscribe container col-lg-7">
+                <div class="subscribe container col-12 col-lg-7">
                     <h2 class="text-uppercase mb-4 text-danger">subscribe</h2>
-                    <div class="subscribe-1 pb-4 row pl-lg-4">
-                        <div class="position-relative pt-4 col-md-5 col-lg-6">
+                    <div class="subscribe-1 pb-4 d-md-flex justify-content-between">
+                        <div class="position-relative pt-4 col-md-5 col-lg-4">
                             <img src="assets/images/subscribe/cover-october-09-16-2020.jpg" alt="subscrbe-img">
                             <img src="assets/images/subscribe/cover-october-02-2020.jpg" alt="image-atop" class="position-absolute">
                         </div>
-                        <div class="subscribe-info text-center mt-n4 col-md-7 col-lg-6 mt-md-2 bg-transparent pt-md-5 text-md-left">
+                        <div class="subscribe-info text-center mt-n4 col-12 col-md-7 col-lg-6 mt-md-2 bg-transparent pt-md-5 text-md-left p-lg-6">
                             <h1 class="font-weight-bold">
                                 In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
                             </h1>
@@ -1619,5 +1635,9 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+        <!-- Card Example  -->
+ 
     </body>
 </html>
