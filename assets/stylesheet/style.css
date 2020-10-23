@@ -131,9 +131,10 @@ figure {
   background-color: #e9280f;
 }
 
-.ranking-articles-wrapper article{
+.ranking-articles-wrapper article {
   height: fit-content;
 }
+
 .magazine img {
   width: 100%;
 }
@@ -190,8 +191,8 @@ figure {
 
 .subscribe-info h1 {
   z-index: 10;
-  background: none;  
-  margin-top: 0; 
+  background: none;
+  margin-top: 0;
 }
 
 .footer-nw-logo img {
@@ -204,8 +205,8 @@ figure {
 
 @media screen and (min-width: 768px) {
   .subscribe-info {
-    align-items: initial;    
-  }  
+    align-items: initial;
+  }
 }
 
 @media screen and (min-width: 992px) {
